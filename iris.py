@@ -122,3 +122,54 @@ plt.plot(x,Y)
 plt.show()
 
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Enter your code here. Read input from STDIN. Print output to STDOU
+# import numpy as np
+# from sklearn import linear_model
+
+# def read_data():
+#     train_data = list()
+#     test_data = list()
+#     F, N = map(int,input().split(' '))
+#    [train_data.append(input().split(' ')) for _ in range(0,N)]
+#     T = int(input())
+#     [test_data.append(input().split(' ')) for _ in range(0,T)]
+#     train_data = np.array(train_data,dtype=np.float32)
+#     test_data = np.array(test_data,dtype=np.float32)
+#     X_train = train_data[:,0:F]
+#     Y_train = train_data[:,-1]
+#     X_test = test_data
+#     return X_train, Y_train, X_test
+# if _name_ == '_main_':
+#     X_train, Y_train, X_test = read_data()
+#     model = linear_model.LinearRegression()
+#     model.fit(X_train,Y_train)
+#     Y_test = model.predict(X_test)
+#     for i in Y_test:
+#         print(np.round(i,2))
+import numpy as np
+from sklearn import linear_model
+F,T = int(input().split(' '))
+print(T)
+# def read_data():
+#     train_data=list()
+#     test_data=list()
+#     F,N = map(int,input().split(' '))
+#     [train_data.append(input().split(' ')) for _ in range(0,N)]
+#     T = int(input())
+#     [test_data.append(input().split(' ')) for _ in range(0,T)]
+#     train_data = np.array(train_data,dtype=np.float32)
+#     test_data = np.array(test_data,dtype=np.float32)
+#     X_train = train_data[:,0:F]
+#     Y_train =train_data[:,-1]
+#     X_test = test_data
+#     return X_train, Y_train, X_test
+# if _name_ == '_main_':
+#     X_train, Y_train, X_test = read_data()
+#     model = linear_model.LinearRegression()
+#     model.fit(X_train,Y_train)
+#     Y_test = model.predict(X_test)
+#     for i in Y_test:
+#         print(np.round(i,3))
