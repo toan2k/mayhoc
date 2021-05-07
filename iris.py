@@ -173,3 +173,7 @@ print(T)
 #     Y_test = model.predict(X_test)
 #     for i in Y_test:
 #         print(np.round(i,3))
+
+
+
+https://anotepad.com/notes/j2nj4w96
